@@ -29,7 +29,7 @@ for filename in os.listdir(directory):
     f = os.path.join(directory, filename)
     if os.path.isfile(f):
         with open(f) as file_in:
-            time_stamps = []
+            tstamps = []
             num_guards = 0
             for line in file_in:
                 x = line.split()
